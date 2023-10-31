@@ -7,20 +7,20 @@
 - **Update**: Edit and update book details.
 - **Delete**: Remove books from the database
 
-GET https://brew-apps-project-zojq.vercel.app/api/books => This endpoint will give all the listing of books
+GET https://brew-apps-project.vercel.app/api/books => This endpoint will give all the listing of books
 
-GET https://brew-apps-project-zojq.vercel.app/api/books/:id (referenceId=6540a0f71fbb800390a5747b) => This endpoint will get the details of the books 
+GET https://brew-apps-project.vercel.app/api/books/:id (referenceId=6540b9a23c036643c0f8e094) => This endpoint will get the details of the books 
 
-DELETE https://brew-apps-project-zojq.vercel.app/api/books/:id => This endpoint will delete the book
+DELETE https://brew-apps-project.vercel.app/api/books/:id => This endpoint will delete the book
 
-POST https://brew-apps-project-zojq.vercel.app/api/books/save/details => this endpoint will help in to create new books (Body JSON=> {
+POST https://brew-apps-project.vercel.app/api/books/save/details => this endpoint will help in to create new books (Body JSON=> {
     "title": "Book 4",
     "author": "Sorav",
     "summary": "Creating Book 4"
 }
 )
 
-PUT https://brew-apps-project-zojq.vercel.app/api/books/update/:id => this endpoint will update the existing book details which has not deleted (Body JSON=> {
+PUT https://brew-apps-project.vercel.app/api/books/update/:id => this endpoint will update the existing book details which has not deleted (Body JSON=> {
     "title": "Book 5",
     "author": "Sorav",
     "summary": "Creating Book 5"
