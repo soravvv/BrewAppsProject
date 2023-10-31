@@ -9,8 +9,4 @@ app.use(cors());
 const books = require("./controller/books");
 app.use("/api/books", books)
 
-app.get('/', async (req, res) => {
-    res.status(200).send('API is working');
-})
-
 module.exports = app
