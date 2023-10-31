@@ -15,3 +15,7 @@ app.listen(process.env.PORT, () => {
 app.get('/', async (req, res) => {
     res.status(200).send('API is working');
 })
+
+// importing routes
+const books = require("./controller/books");
+app.use("/api/books", books)
